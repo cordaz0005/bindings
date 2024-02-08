@@ -1,0 +1,101 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+
+
+.nav-link {
+  color: grey;
+  transition: .2s;
+}
+
+.nav-link:active{
+  opacity: .2;
+}
+
+.bg-body-tertiary {
+  color: black;
+  
+}
+
+.container {
+
+  align-content: center;
+  overflow: auto;
+}
+
+
+
+.bg-body-tertiary-step {
+  
+  
+  /* Add margin */
+   /* Adjust as needed */
+  
+  text-align: center;
+
+  
+
+  /* Add border radius for rounded corners */
+  border-radius: 200px; /* Adjust radius as needed */
+}
+
+.step-on-description{
+  
+  text-align: center;
+  padding: 20px; /* Add padding for readability */
+  
+}
+.catolog-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+  grid-gap: 15px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.catolog{
+  padding: 15px;
+  float: left;
+  max-width: calc(225px + 15px); 
+}
+
+
+
+.desc{
+  padding: 20px;
+  text-align: center;
+  max-width: 225px;
+  float: right;
+  border: 2px solid black;
+  background-color: lightgray;
+  height: 385px;
+  border-radius: 10px;
+}
+
+.contain {
+  margin-top: 20px;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+
+img{
+  max-width: 400px;
+  max-height: 350px;
+  transition: 0.2s;
+}
+
+img:hover{
+  opacity: 40%;
+  transition: 0.2s;
+}
+
+img:active{
+  opacity: 70%;
+}
+
