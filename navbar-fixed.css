@@ -109,9 +109,15 @@ div.content {
   text-align: center;
 }
 
-html, body {
+body {
   background: url(./img/snow.gif) repeat fixed, 
   url(./img/mountain.jpg) no-repeat top/cover;
-  
   background-color: lightblue;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: rgba(32, 32, 32, 0.514);
+  padding: 1px;
 }
