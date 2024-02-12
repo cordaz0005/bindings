@@ -110,7 +110,7 @@ div.content {
 }
 
 body {
-  background: url(./img/snow.gif) repeat fixed, 
+  background: url(./img/snow.gif) repeat, 
   url(./img/mountain.jpg) no-repeat top/cover;
   background-color: lightblue;
 }
